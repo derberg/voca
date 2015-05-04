@@ -25,5 +25,10 @@
 }
 
 .good {
-    color: #34A300;
+  color: #34A300;
+}
+
+.list-inline{
+  margin:0;
+  padding:0
 }

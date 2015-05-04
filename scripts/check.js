@@ -17,9 +17,9 @@ document.getElementById('next').onclick = function(){ window.location.reload(); 
 // check function for checking if one element is present in an array
 function check(elementID) {
   if ( _.contains(checkList,$('#'+elementID).val()) ) {
-    $('span').text('Correct!').show();
-    $('span').removeClass('animated bounceInDown');
-    $('span').addClass('animated bounceIn');
+    $('#confirmation').text('Correct!').show();
+    $('#confirmation').removeClass('animated bounceInDown');
+    $('#confirmation').addClass('animated bounceIn');
     $('.isSuccessful').addClass('good');
     //showing next button
     $( '#next' ).removeClass( 'off' );
@@ -28,8 +28,8 @@ function check(elementID) {
     //preventing page refresh
     event.preventDefault();
   } else {
-    $('span').text('Wrong!').show();
-    $('span').addClass('animated bounceInDown');
+    $('#confirmation').text('Wrong!').show();
+    $('#confirmation').addClass('animated bounceInDown');
     $('.isSuccessful').addClass('bad');
     event.preventDefault();
   }
