@@ -1,13 +1,11 @@
 function random(){
-
-  console.log(wordsBase.length);
-
   var word;
 
+  var allWords = JSON.parse(sessionStorage.getItem('words'));
   //define languages and get random
   var languages = ['en','pl'];
   var language = randomizeArray(languages);
-  var randomWords = randomizeArray(wordsBase);
+  var randomWords = randomizeArray(allWords);
 
   //get word from randomly selected language
   if (language === 'en') {
@@ -29,8 +27,6 @@ function random(){
     $('#enWord').attr("placeholder", "type translation");
     $('#validation_language').attr("value", "en");
   }
-
-
 }
 
 
