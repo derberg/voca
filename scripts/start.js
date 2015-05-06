@@ -12,6 +12,9 @@ $( document ).ready(function() {
       //showing check button
       $( '#check' ).addClass( 'active' );
       $( '#check' ).removeClass( 'off' );
+      //showing start all over button;
+      $( '#startallover' ).removeClass( 'off' );
+      $( '#startallover' ).addClass( 'active' );
       random();
     }
 
