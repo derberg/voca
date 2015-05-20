@@ -21,5 +21,6 @@ var book3 = [
   { "en":["tower"], "pl":["wieża"]},
   { "en":["postpone"], "pl":["przełożyć"]},
   { "en":["later"], "pl":["później"]},
-  { "en":["rubber"], "pl":["gumka", "gumiak"]}
+  { "en":["rubber"], "pl":["gumka", "gumiak"]},
+  { "en":["provide"], "pl":["zapewnić", "zaopatrywać"]},
 ];
