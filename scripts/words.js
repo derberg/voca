@@ -23,4 +23,7 @@ var book3 = [
   { "en":["later"], "pl":["później"]},
   { "en":["rubber"], "pl":["gumka", "gumiak"]},
   { "en":["provide"], "pl":["zapewnić", "zaopatrywać"]},
+  { "en":["provide for"], "pl":["utrzymywać (rodzinę)"]},
+  { "en":["ought to"], "pl":["powinien", "powinienem"]},
+  { "en":["keep house"], "pl":["prowadzić gospodarstwo domowe"]},
 ];
