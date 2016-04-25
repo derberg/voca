@@ -1,6 +1,7 @@
 ## What is voca?
 
-Web app for learning english vocabulary.         
+Web app for learning english vocabulary.
+Created quickly to serve its private purpose. Don't learn to code from this project :) it could be really much much better
 
 ## Why it exists?
 
