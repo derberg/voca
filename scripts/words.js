@@ -30,7 +30,7 @@ var book3 = [
   { "en":["can't stand"], "pl":["nie znosić", "nie cierpieć"]},
   { "en":["can't bear"], "pl":["nie znosić", "nie cierpieć"]},
   { "en":["there's not point"], "pl":["nie ma sensu"]},
-  { "en":["care"], ["lubić", "chcieć"]},
+  { "en":["care"], "pl":["lubić", "chcieć"]},
   { "en":["look after"], "pl":["opiekować się", "troszczyć się"]},
   { "en":["care about"], "pl":["przejmować się", "obchodzi (mnie)"]},
   { "en":["right now"], "pl":["w tym momencie"]},
