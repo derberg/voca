@@ -34,5 +34,5 @@ var book3 = [
   { "en":["look after"], "pl":["opiekować się", "troszczyć się"]},
   { "en":["care about"], "pl":["przejmować się", "obchodzi (mnie)"]},
   { "en":["right now"], "pl":["w tym momencie"]},
-  { "en":["righ here"], "pl":["dokładnie tu"]},
+  { "en":["righ here"], "pl":["dokładnie tu"]}
 ];
