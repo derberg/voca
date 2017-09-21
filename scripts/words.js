@@ -26,7 +26,7 @@ var book3 = [
   { "en":["provide for"], "pl":["utrzymywać (rodzinę)"]},
   { "en":["ought to"], "pl":["powinien", "powinienem"]},
   { "en":["keep house"], "pl":["prowadzić gospodarstwo domowe"]},
-  { "en":["feel like"], pl":["mieć ochotę na"]},
+  { "en":["feel like"], "pl":["mieć ochotę na"]},
   { "en":["can't stand"], "pl":["nie znosić", "nie cierpieć"]},
   { "en":["can't bear"], "pl":["nie znosić", "nie cierpieć"]},
   { "en":["there's not point"], "pl":["nie ma sensu"]},
