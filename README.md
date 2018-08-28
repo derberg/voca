@@ -14,7 +14,3 @@ My wife adds vocabulary entries, so if you have some issues there, I'll tell her
 ## License
 
 [MIT](LICENSE)
-
-## Test
-
-![](Book1.csv)
