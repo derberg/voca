@@ -1,6 +1,6 @@
 {
   "name": "voca",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "Web app for learning english vocabulary. Created quickly to serve its private purpose. Don't learn to code from this project :) it could be really much much better",
   "main": "index.js",
   "scripts": {
