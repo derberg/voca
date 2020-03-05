@@ -1,10 +1,11 @@
 {
-  "name": "voca-test-ignore-test",
+  "name": "voca-test-ignore-test-test",
   "version": "1.1.4",
   "description": "Web app for learning english vocabulary. Created quickly to serve its private purpose. Don't learn to code from this project :) it could be really much much better",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "semantic-release --no-ci"
   },
   "repository": {
     "type": "git",
