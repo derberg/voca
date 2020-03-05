@@ -1,6 +1,6 @@
 {
   "name": "voca-test-ignore-test-test",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "Web app for learning english vocabulary. Created quickly to serve its private purpose. Don't learn to code from this project :) it could be really much much better",
   "main": "index.js",
   "scripts": {
