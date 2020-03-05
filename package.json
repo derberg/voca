@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/derberg/voca.git"
   },
-  "author": "",
+  "author": "derberg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/derberg/voca/issues"
