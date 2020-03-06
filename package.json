@@ -1,5 +1,5 @@
 {
-  "name": "voca-test-ignore-tester",
+  "name": "voca-test-ignore-testy",
   "version": "1.2.0",
   "description": "Web app for learning english vocabulary. Created quickly to serve its private purpose. Don't learn to code from this project :) it could be really much much better",
   "main": "index.js",
@@ -37,7 +37,12 @@
           "preset": "conventionalcommits"
         }
       ],
-      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits"
+        }
+      ],
       "@semantic-release/github",
       [
         "@semantic-release/git",
