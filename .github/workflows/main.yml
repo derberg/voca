@@ -26,6 +26,7 @@ jobs:
           GIT_COMMITTER_EMAIL: derberg@wp.pl
         run: npm run release
   release-docker:
+    needs: release
     name: Release to Docker
     runs-on: ubuntu-latest
     steps:
