@@ -25,3 +25,14 @@ jobs:
           GIT_COMMITTER_NAME: asyncapi-bot
           GIT_COMMITTER_EMAIL: derberg@wp.pl
         run: npm run release
+  release-docker:
+    name: Release to Docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get version from package.json
+        id: extractver
+        run: echo "::set-output name=version::$(docker run --rm -v $PWD:/app treeder/bump --extract --filename package.json)"
+      - name: echo version
+        run: echo "to dziala ${{ steps.extractver.outputs.version }}"
