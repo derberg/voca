@@ -33,6 +33,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Get version from package.json
         id: extractver
-        run: echo "::set-output name=version::$(docker run --rm -v $PWD:/app treeder/bump --extract --filename package.json)"
+        run: echo "::set-output name=version::$(npm run get-version)"
       - name: echo version
         run: echo "to dziala ${{ steps.extractver.outputs.version }}"
